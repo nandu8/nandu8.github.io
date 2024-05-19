@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 header {
     font-weight: bold;
     padding-top: 20px;
     margin-bottom: 0px;
     text-align: center;
-    font-family: Cormorant Garamond;
+    font-family: Cormorant Garamond, sans-serif;
     color: rgba(255,255,255,0.98);
     font-size: 1.2em;
 }
@@ -41,7 +41,6 @@ body {
     align-items: center; /* Center content vertically */
     margin: 130px auto 100px auto;
     cursor: pointer;
-    /* font-family: Cormorant Garamond; */
     border: 2px solid #ccc;
     border-radius: 50%;
     box-shadow: 0 0 3px 6px rgba(0, 0, 0, 0.171);
@@ -61,7 +60,7 @@ body {
 }
 
 .textbox p{
-    font-family:  Cormorant Garamond;
+    font-family: Cormorant Garamond, sans-serif;
     font-size: 2em;
     text-align: center;
     margin: auto;
@@ -72,7 +71,7 @@ body {
 #instruction{
     width: 80%;
     margin: auto;
-    font-family: Cormorant Garamond;
+    font-family: Cormorant Garamond, sans-serif;
     font-size: 1.5em;
     color: rgba(255,255,255,0.98);
 }
@@ -344,7 +343,7 @@ body {
 }
 
 .thankyou{
-  font-family: Cormorant Garamond;
+  font-family: Cormorant Garamond, sans-serif;
   font-size: 3em;
   color: rgba(152, 3, 137, 0.944);
   text-align: center;
