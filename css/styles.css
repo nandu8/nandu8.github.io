@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+    font-family: 'Lulo';
+    src: url('fonts/Yellow Design Studio - Lulo Clean Outline Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Evafiya';
+    src: url('fonts/f24q125-evafiya-evafiya-bold-700.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -24,10 +39,6 @@ body {
 }
 
 .header-text {
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -37,8 +48,7 @@ body {
 .header-text h1{
     font-size: 3em;
     margin-top: 5vh;
-    /* font-family: Angella White Personal use font; */
-    font-family: Lulo Clean Outline;
+    font-family: Lulo;
     color: #ffffcc;
     text-shadow: 0 0 20px black;  
     text-shadow: 0 0 10px rgba(202, 0, 225, 0.86), 0 0 20px rgba(202, 0, 225, 0.86), 0 0 30px rgba(202, 0, 225, 0.86); /* Add multiple shadows with different blur radii */
@@ -55,7 +65,7 @@ body {
 
 .header-p2{
     margin-top: 47vh;
-    font-family: Cormorant Garamond;
+    font-family: Cormorant Garamond, sans-serif;
     font-size: 2em;
     color: #ffffcc;
 }
@@ -98,7 +108,7 @@ body {
 .location-container h2{
     margin-top: 80px;
     font-size: 2.5em;
-    font-family: Cormorant Garamond;
+    font-family: Cormorant Garamond, sans-serif;
     text-align: center;
 }
 .container {
@@ -117,7 +127,6 @@ body {
     margin-top: 10px; 
     padding: 10px;
     cursor: pointer;
-    /* font-family: Cormorant Garamond; */
     font-family: Angella White Personal use font;
     font-size: 2em;
     border: 1px solid #ccc;
@@ -163,7 +172,7 @@ body {
 }
 
 .info-box p{
-    font-family: Cormorant Garamond;
+    font-family: Cormorant Garamond, sans-serif;
     font-size: 1.2em;
     text-align: center;
 }
@@ -186,7 +195,7 @@ body {
     margin-top: 80px;
     margin-bottom: 40px;
     font-size: 2.5em;
-    font-family: Cormorant Garamond;
+    font-family: Cormorant Garamond, sans-serif;
     text-align: center;
 }
 
@@ -197,7 +206,7 @@ body {
 .wedding-registry-body p{
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family: Cormorant Garamond;
+    font-family: Cormorant Garamond, sans-serif;
 }
 
 @media (min-width: 600px) {
@@ -212,30 +221,6 @@ body {
         font-size: 1.8em;
     } 
 }
-
-/* .card {
-    font-family: Cormorant Garamond;
-    margin-top: 30px;
-    text-align: center;
-    border: 1px solid #ccc;
-    color: black;
-    border-radius: 200px;
-    padding: 10px;
-    width: 300px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: rgb(213, 67, 0);
-    cursor: pointer; 
-}
-
-.card:hover {
-    color: black;
-    text-decoration: none;
-    background-color: rgb(241, 220, 210);
-}
-
-.card:active { 
-    color: brown;
-} */
 
 .card2 {
     font-family: Angella White Personal use font;
@@ -314,15 +299,10 @@ body {
 
 .footer-text h1{
     margin-top: 20vh;
-    /* font-family: Angella White Personal use font; */
-    font-family: Lulo Clean Outline;
-    /* text-shadow: 0 0 20px black;   */
+    font-family: Lulo;
     color: #fff; /* Set text color to white */
     text-shadow: 0 0 10px #eead87, 0 0 20px #eead87, 0 0 30px #eead87; /* Add multiple shadows with different blur radii */
 }
-
-/* font-family: Evafiya; */
-/* font-family: Cormorant Garamond; */
 
 /* Styles for laptop screens (min-width: 1024px) */
 @media only screen and (min-width: 1024px) {
