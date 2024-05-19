@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @font-face {
-    font-family: 'Lulo';
-    src: url('fonts/Yellow Design Studio - Lulo Clean Outline Bold.otf') format('opentype');
-    font-weight: normal;
+    font-family: 'Lulo Clean Outline Bold';
     font-style: normal;
-}
+    font-weight: normal;
+    src: local('Lulo Clean Outline Bold'), url('Yellow Design Studio - Lulo Clean Outline Bold.woff') format('woff');
+    }
 
 @font-face {
     font-family: 'Evafiya';
@@ -48,7 +48,7 @@ body {
 .header-text h1{
     font-size: 3em;
     margin-top: 5vh;
-    font-family: Lulo;
+    font-family: 'Lulo Clean Outline Bold';
     color: #ffffcc;
     text-shadow: 0 0 20px black;  
     text-shadow: 0 0 10px rgba(202, 0, 225, 0.86), 0 0 20px rgba(202, 0, 225, 0.86), 0 0 30px rgba(202, 0, 225, 0.86); /* Add multiple shadows with different blur radii */
@@ -59,7 +59,7 @@ body {
     margin-top: 10vh;
     letter-spacing: 2px;
     font-size: 1.5em;
-    font-family: Evafiya;
+    font-family: 'Evafiya';
     color: #ffffcc;
 }
 
@@ -299,7 +299,7 @@ body {
 
 .footer-text h1{
     margin-top: 20vh;
-    font-family: Lulo;
+    font-family: 'Lulo Clean Outline Bold';
     color: #fff; /* Set text color to white */
     text-shadow: 0 0 10px #eead87, 0 0 20px #eead87, 0 0 30px #eead87; /* Add multiple shadows with different blur radii */
 }
