@@ -80,7 +80,7 @@ body {
 
 .main-content {
     /* background-color: #424769; */
-    background-image: url(../images/background/1.png);
+    background-image: url(../images/background/4.png);
     background-size: cover; /* Cover the entire background */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the background image */
@@ -88,6 +88,14 @@ body {
     display: flex;
     justify-content: center; /* Horizontally center the content */
     align-items: center;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        background-image: url(../images/background/3.png);
+        background-size: auto 100%;
+        background-position: left center;
+    }
 }
 
 #carouselExampleIndicators {
@@ -112,6 +120,13 @@ body {
     background-position: center; 
     background-repeat: no-repeat;
 
+}
+
+@media (max-width: 768px) {
+    .location-container {
+        background-size: auto 100%;
+        background-position: left center;
+    }
 }
 .location-container h2{
     margin-top: 80px;
@@ -197,6 +212,13 @@ body {
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .wedding-registry-container {
+        background-size: auto 100%;
+        background-position: right center;
+    }
 }
 
 .wedding-registry-container h2{
