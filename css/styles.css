@@ -108,6 +108,25 @@ body {
     padding: 20px;
 }
 
+/* Fix this part */
+.carousel-item img{
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+@media (max-width: 768px){
+    .carousel-item img{
+        height: 600px;
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+        object-fit: cover;
+        max-width: 100%;
+    }
+}
+
 .location-container {
     display: flex;
     flex-direction: column;
@@ -116,9 +135,11 @@ body {
     position: relative;
     height: 100vh;
     background-image: url(../images/background/2.png);
-    background-size: cover; 
-    background-position: center; 
+    /* background-size: cover; 
+    background-position: center;  */
     background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left center;
 
 }
 
